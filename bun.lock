@@ -5,7 +5,7 @@
       "name": "nuxt-ui-pro-template-docs",
       "dependencies": {
         "@iconify-json/lucide": "^1.2.26",
-        "@iconify-json/simple-icons": "^1.2.24",
+        "@iconify-json/simple-icons": "^1.2.25",
         "@iconify-json/vscode-icons": "^1.2.14",
         "@nuxt/content": "^3.1.1",
         "@nuxt/image": "^1.9.0",
@@ -16,6 +16,7 @@
       },
       "devDependencies": {
         "@antfu/eslint-config": "^4.3.0",
+        "@iconify-json/simple-line-icons": "^1.2.1",
         "@nuxt/eslint": "^1.0.1",
         "eslint": "^9.20.1",
         "typescript": "^5.7.3",
@@ -226,6 +227,8 @@
     "@iconify-json/lucide": ["@iconify-json/lucide@1.2.26", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-arD/8mK0lRxFY2LgLf345NhWVWiOtV8sOxJuLnq4QRz3frMiOwVwGxEgp5Xe/bRGzxO2CxxCBok0bPRpCkYZQQ=="],
 
     "@iconify-json/simple-icons": ["@iconify-json/simple-icons@1.2.25", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-2E1/gOCO97rF6usfhhiXxwzCb+UhdEsxW3lW1Sew+xZY0COY6dp82Z/r1rUt2fWKneWjuoGcNeJHHXQyG8mIuw=="],
+
+    "@iconify-json/simple-line-icons": ["@iconify-json/simple-line-icons@1.2.1", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-MxgGNPpjiruoKqoefyluJtyq3ebwxqIfngJDFx6wIe/YNOIIyT7LTGKS7kh4Az3PDfefh5Z9OkxGTLExx8WfKg=="],
 
     "@iconify-json/vscode-icons": ["@iconify-json/vscode-icons@1.2.14", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-DLFEWtKpqpzzWbn8DWQoBb2j/KK8KASLHPKQ7763/F4SJelMZg2xVUPUEWrceLNcTu8OVtKQcd/+3Ysa3WcAsg=="],
 
