@@ -6,17 +6,17 @@ export default defineNuxtConfig({
     '@nuxt/ui-pro',
     '@nuxt/content',
     'nuxt-og-image',
-    '@nuxthub/core'
+    '@nuxthub/core',
   ],
 
   devtools: {
-    enabled: true
+    enabled: true,
   },
 
   css: ['~/assets/css/main.css'],
 
   future: {
-    compatibilityVersion: 4
+    compatibilityVersion: 4,
   },
 
   compatibilityDate: '2024-07-11',
@@ -24,22 +24,22 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/'
+        '/',
       ],
-      crawlLinks: true
-    }
+      crawlLinks: true,
+    },
   },
 
   eslint: {
     config: {
       stylistic: {
         commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
+        braceStyle: '1tbs',
+      },
+    },
   },
 
   icon: {
-    provider: 'iconify'
-  }
+    provider: 'iconify',
+  },
 })
