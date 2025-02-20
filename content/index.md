@@ -25,7 +25,7 @@ Documentation for my packages, as well as for other libraries that contain my co
   :::u-button
   ---
   size: xl
-  to: /api-responder-for-laravel
+  to: /docs
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
@@ -36,30 +36,14 @@ Documentation for my packages, as well as for other libraries that contain my co
 #title
 Packages that will make your Laravel application better
 
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: lg
-  target: _blank
-  to: https://ui3.nuxt.dev/getting-started/installation/pro/nuxt
-  trailingIcon: i-lucide-arrow-right
-  variant: subtle
-  ---
-  Discover Nuxt UI Pro v3
-  :::
-
 #features
   :::u-page-feature
   ---
   icon: Api
-  target: _blank
   to: /api-responder-for-laravel
   ---
   #title
-  ```js
   API responder
-  ```
   
   #description
   ```js
@@ -70,13 +54,10 @@ Packages that will make your Laravel application better
   :::u-page-feature
   ---
   icon: Moonshine
-  target: _blank
   to: /moonshine
   ---
   #title
-  ```js
   Moonshine
-  ```
   
   #description
   ```js
@@ -86,8 +67,7 @@ Packages that will make your Laravel application better
 
   :::u-page-feature
   ---
-  icon: i-lucide-sparkles
-  target: _blank
+  icon: i-heroicons:shield-check
   to: /socialment
   ---
   #title
