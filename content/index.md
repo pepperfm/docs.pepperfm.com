@@ -40,7 +40,9 @@ Packages that will make your :br Laravel application better
   :::u-page-feature
   ---
   icon: Api
-  to: /api-responder-for-laravel
+  to: https://github.com/pepperfm/api-responder-for-laravel
+  target: _blank
+  external: true
   ---
   #title
   API responder
@@ -54,7 +56,9 @@ Packages that will make your :br Laravel application better
   :::u-page-feature
   ---
   icon: Moonshine
-  to: /moonshine
+  to: https://moonshine-laravel.com/
+  target: _blank
+  external: true
   ---
   #title
   Moonshine
@@ -68,7 +72,9 @@ Packages that will make your :br Laravel application better
   :::u-page-feature
   ---
   icon: i-heroicons:shield-check
-  to: /socialment
+  to: https://github.com/chrisreedio/socialment
+  target: _blank
+  external: true
   ---
   #title
   Socialment
