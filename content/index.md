@@ -1,8 +1,8 @@
 ---
 seo:
-  title: Nuxt UI Pro - Docs template.
-  description: Nuxt UI Pro is a collection of premium Vue components built on top
-    of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
+  title: Packages documentation
+  description: Documentation for my packages, as well as for other libraries that
+    contain my code
 ---
 
 ::u-page-hero
@@ -11,42 +11,30 @@ orientation: horizontal
 ---
   :::prose-pre{filename="Terminal"}
   ```bash
-  npx nuxi init -t github:nuxt-ui-pro/docs#v3
+  composer require pepperfm/api-responder-for-laravel
   ```
   :::
 
 #title
-Build your docs with Nuxt UI Pro
+Packages documentation
 
 #description
-Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes.
+Documentation for my packages, as well as for other libraries that contain my code and those that I simply like
 
 #links
   :::u-button
   ---
   size: xl
-  to: /getting-started
+  to: /api-responder-for-laravel
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
-  :::
-
-  :::u-button
-  ---
-  color: neutral
-  icon: i-simple-icons-github
-  size: xl
-  target: _blank
-  to: https://github.com/nuxt-ui-pro/docs/tree/v3
-  variant: subtle
-  ---
-  Use this template
   :::
 ::
 
 ::u-page-section
 #title
-All-in-one documentation template
+Packages that will make your Laravel application better
 
 #links
   :::u-button
@@ -64,102 +52,50 @@ All-in-one documentation template
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
+  icon: Api
   target: _blank
-  to: https://nuxt.com
+  to: /api-responder-for-laravel
   ---
   #title
-  Nuxt 3
-
+  ```js
+  API responder
+  ```
+  
   #description
-  Powered by Nuxt 3 for optimal performances and SEO.
+  ```js
+  Api responder for Laravel
+  ```
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-markdown
+  icon: Moonshine
   target: _blank
-  to: https://content.nuxt.com
+  to: /moonshine
   ---
   #title
-  Markdown
-
+  ```js
+  Moonshine
+  ```
+  
   #description
-  Write your pages with MDC thanks to Nuxt Content.
+  ```js
+  Administration panel for Laravel framework
+  ```
   :::
 
   :::u-page-feature
   ---
   icon: i-lucide-sparkles
   target: _blank
-  to: https://ui3.nuxt.dev
+  to: /socialment
   ---
   #title
-  Nuxt UI v3
-
+  Socialment
+  
   #description
-  Offers a very large set of full customizable components.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-typescript
-  target: _blank
-  to: https://www.typescriptlang.org
-  ---
-  #title
-  TypeScript
-
-  #description
-  A fully typed development experience.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxtdotjs
-  target: _blank
-  to: https://content.nuxt.com/docs/studio
-  ---
-  #title
-  Nuxt Studio
-
-  #description
-  Supported by Nuxt Studio for fast updates and previews.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-lucide-search
-  target: _blank
-  to: https://ui3.nuxt.dev/components/content-search
-  ---
-  #title
-  Search
-
-  #description
-  A full-text search modal powered by Fuse.js.
-  :::
-::
-
-::u-page-section
-  :::u-page-c-t-a
-  ---
-  links:
-    - label: Buy now
-      to: https://ui.nuxt.com/pro/purchase
-      target: _blank
-      icon: i-lucide-shopping-cart
-      color: neutral
-    - label: License
-      to: https://ui3.nuxt.dev/getting-started/license
-      trailingIcon: i-lucide-circle-help
-      target: _blank
-      color: neutral
-      variant: subtle
-  description: Nuxt UI Pro is free in development, but you need a license to use
-    it in production.
-  title: Start with Nuxt UI Pro today!
-  variant: subtle
-  ---
+  ```js
+  Socialite OAuth Support for Filament
+  ```
   :::
 ::
