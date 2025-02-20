@@ -2,6 +2,7 @@
 @import "@nuxt/ui-pro";
 
 @source "../../../content";
+@source "../../content";
 
 @theme {
   --font-sans: 'Public Sans', sans-serif;

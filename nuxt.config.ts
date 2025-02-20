@@ -9,6 +9,11 @@ export default defineNuxtConfig({
     '@nuxthub/core',
   ],
 
+  uiPro: {
+    content: true,
+    mdc: true,
+  },
+
   devtools: {
     enabled: true,
   },

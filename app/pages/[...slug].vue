@@ -80,7 +80,7 @@ const links = computed(() => [toc?.bottom?.edit && {
             class="hidden lg:block space-y-6"
             :class="{ '!mt-6': page.body?.toc?.links?.length }"
           >
-            <USeparator
+            <!--            <USeparator
               v-if="page.body?.toc?.links?.length"
               type="dashed"
             />
@@ -88,7 +88,7 @@ const links = computed(() => [toc?.bottom?.edit && {
             <UPageLinks
               :title="toc.bottom.title"
               :links="links"
-            />
+            /> -->
           </div>
         </template>
       </UContentToc>

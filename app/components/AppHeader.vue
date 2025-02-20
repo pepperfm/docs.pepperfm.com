@@ -46,11 +46,18 @@ const { header } = useAppConfig()
       v-else
       #left
     >
-      <NuxtLink :to="header?.to || '/'">
-        <LogoPro class="w-auto h-6 shrink-0" />
+      <NuxtLink
+        aria-label="logo" to="/"
+        class="flex-shrink-0 font-bold text-xl text-gray-900 dark:text-white flex items-center gap-1.5"
+      >
+        <UAvatar
+          src="https://avatars.githubusercontent.com/u/36007880?v=4"
+          alt="Dmitry Gaponenko"
+        />
+        <span class="hidden lg:flex">
+          Dmitry Gaponenko
+        </span>
       </NuxtLink>
-
-      <TemplateMenu />
     </template>
 
     <template #right>
@@ -61,13 +68,13 @@ const { header } = useAppConfig()
 
       <UColorModeButton v-if="header?.colorMode" />
 
-      <template v-if="header?.links">
+      <!--      <template v-if="header?.links">
         <UButton
           v-for="(link, index) of header.links"
           :key="index"
           v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
         />
-      </template>
+      </template> -->
     </template>
 
     <template #body>

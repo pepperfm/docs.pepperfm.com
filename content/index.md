@@ -25,7 +25,7 @@ Documentation for my packages, as well as for other libraries that contain my co
   :::u-button
   ---
   size: xl
-  to: /docs
+  to: /api-responder-for-laravel
   trailing-icon: i-lucide-arrow-right
   ---
   Get started
@@ -34,7 +34,7 @@ Documentation for my packages, as well as for other libraries that contain my co
 
 ::u-page-section
 #title
-Packages that will make your Laravel application better
+Packages that will make your :br Laravel application better
 
 #features
   :::u-page-feature
