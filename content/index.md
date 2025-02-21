@@ -49,16 +49,14 @@ Packages that will make your :br Laravel application better
   API responder
   
   #description
-  ```js
   Api responder for Laravel
-  ```
   :::
 
   :::u-page-card
   ---
   external: true
   spotlight: true
-  icon: i-heroicons:shield-check
+  icon: i-heroicons:shield-check-16-solid
   target: _blank
   to: https://github.com/chrisreedio/socialment
   variant: subtle
@@ -67,34 +65,46 @@ Packages that will make your :br Laravel application better
   Socialment
   
   #description
-  ```js
   Socialite OAuth Support for Filament
-  ```
+  :::
+
+  :::u-page-card
+  ---
+  external: true
+  spotlight: true
+  icon: i-heroicons:code-bracket-square-16-solid
+  target: _blank
+  to: https://spatie.be/docs/laravel-data
+  variant: subtle
+  ---
+  #title
+  Laravel Data
+  
+  #description
+    Creation of rich data objects which can be used in various ways
   :::
 ::
 
 ::u-page-section
-  :::u-page-grid
+  :::u-page-grid{class="lg:grid-cols-2"}
     ::::u-page-card
     ---
-    description: Nuxt UI v3 integrates with latest Tailwind CSS v4 beta, bringing
-      significant improvements.
-    icon: i-simple-icons-tailwindcss
+    description: Admin panel for your Laravel projects
+    icon: i-heroicons:moon-16-solid
     target: _blank
-    title: Tailwind CSS
-    to: https://tailwindcss.com/docs/v4-beta
+    title: Moonshine
+    to: https://moonshine-laravel.com/
     variant: subtle
     ---
     ::::
   
     ::::u-page-card
     ---
-    description: Nuxt UI v3 integrates with latest Tailwind CSS v4 beta, bringing
-      significant improvements.
-    icon: i-simple-icons-tailwindcss
+    description: A collection of beautiful full-stack components
+    icon: Filament
     target: _blank
-    title: "123123"
-    to: https://tailwindcss.com/docs/v4-beta
+    title: Filament
+    to: https://filamentphp.com/
     variant: subtle
     ---
     ::::
