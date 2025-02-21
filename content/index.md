@@ -58,24 +58,6 @@ Packages that will make your :br Laravel application better
   ---
   external: true
   spotlight: true
-  icon: Moonshine
-  target: _blank
-  to: https://moonshine-laravel.com/
-  variant: subtle
-  ---
-  #title
-  Moonshine
-  
-  #description
-  ```js
-  Administration panel for Laravel
-  ```
-  :::
-
-  :::u-page-card
-  ---
-  external: true
-  spotlight: true
   icon: i-heroicons:shield-check
   target: _blank
   to: https://github.com/chrisreedio/socialment
@@ -101,6 +83,7 @@ Packages that will make your :br Laravel application better
     target: _blank
     title: Tailwind CSS
     to: https://tailwindcss.com/docs/v4-beta
+    variant: subtle
     ---
     ::::
   
@@ -112,6 +95,7 @@ Packages that will make your :br Laravel application better
     target: _blank
     title: "123123"
     to: https://tailwindcss.com/docs/v4-beta
+    variant: subtle
     ---
     ::::
   :::
