@@ -39,11 +39,11 @@ Packages that will make your :br Laravel application better
 #features
   :::u-page-card
   ---
-  icon: Api
-  to: https://github.com/pepperfm/api-responder-for-laravel
-  target: _blank
-  variant: subtle
   spotlight: true
+  icon: Api
+  target: _blank
+  to: https://github.com/pepperfm/api-responder-for-laravel
+  variant: subtle
   ---
   #title
   API responder
@@ -56,12 +56,12 @@ Packages that will make your :br Laravel application better
 
   :::u-page-card
   ---
-  icon: Moonshine
-  to: https://moonshine-laravel.com/
-  target: _blank
   external: true
-  variant: subtle
   spotlight: true
+  icon: Moonshine
+  target: _blank
+  to: https://moonshine-laravel.com/
+  variant: subtle
   ---
   #title
   Moonshine
@@ -74,12 +74,12 @@ Packages that will make your :br Laravel application better
 
   :::u-page-card
   ---
-  icon: i-heroicons:shield-check
-  to: https://github.com/chrisreedio/socialment
-  target: _blank
   external: true
-  variant: subtle
   spotlight: true
+  icon: i-heroicons:shield-check
+  target: _blank
+  to: https://github.com/chrisreedio/socialment
+  variant: subtle
   ---
   #title
   Socialment
@@ -92,12 +92,16 @@ Packages that will make your :br Laravel application better
 ::
 
 ::u-page-section
-::u-page-grid
-    :::u-page-card
+  :::u-page-grid
+    ::::u-page-card
     ---
-    title="Tailwind CSS"
-    description="Nuxt UI v3 integrates with latest Tailwind CSS v4 beta, bringing significant improvements."
+    description: Nuxt UI v3 integrates with latest Tailwind CSS v4 beta, bringing
+      significant improvements.
+    icon: i-simple-icons-tailwindcss
+    target: _blank
+    title: Tailwind CSS
+    to: https://tailwindcss.com/docs/v4-beta
     ---
-    :::
-::
+    ::::
+  :::
 ::
