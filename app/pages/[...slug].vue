@@ -36,12 +36,51 @@ defineOgImageComponent('Docs')
 
 const headline = computed(() => findPageHeadline(navigation.value, page.value))
 
-const links = computed(() => [toc?.bottom?.edit && {
-  icon: 'i-lucide-external-link',
-  label: 'Edit this page',
-  to: `${toc.bottom.edit}/${page?.value?.path}`,
-  target: '_blank',
-}, ...(toc?.bottom?.links || [])].filter(Boolean))
+const links = computed(() => {
+  const path = route.path
+
+  if (path === '/socialment') {
+    return [
+      {
+        label: 'Laravel Socialite',
+        to: 'https://laravel.com/docs/master/socialite',
+        target: '_blank',
+      },
+      {
+        label: 'Socialite Providers',
+        to: 'https://socialiteproviders.com/',
+        target: '_blank',
+      },
+      {
+        label: 'Azure Socialite Provider',
+        to: 'https://socialiteproviders.com/Microsoft-Azure/',
+        target: '_blank',
+      },
+      {
+        label: 'ChrisReedIO/Socialment-Demo',
+        to: 'https://github.com/chrisreedio/socialment-demo',
+        target: '_blank',
+      },
+      {
+        label: 'Blade Font Awesome package',
+        to: 'https://github.com/owenvoke/blade-fontawesome',
+        target: '_blank',
+      },
+      {
+        label: 'Owen Voke',
+        to: 'https://github.com/owenvoke',
+        target: '_blank',
+      },
+      {
+        label: 'Font Awesome Website',
+        to: 'https://fontawesome.com/search?o=r\\&f=brands',
+        target: '_blank',
+      },
+    ]
+  }
+
+  return []
+})
 </script>
 
 <template>
@@ -71,24 +110,25 @@ const links = computed(() => [toc?.bottom?.edit && {
       <UContentToc
         :title="toc?.title"
         :links="page.body?.toc?.links"
+        class="min-w-xs"
       >
         <template
-          v-if="toc?.bottom"
+          v-if="links.length"
           #bottom
         >
           <div
             class="hidden lg:block space-y-6"
             :class="{ '!mt-6': page.body?.toc?.links?.length }"
           >
-            <!--            <USeparator
+            <USeparator
               v-if="page.body?.toc?.links?.length"
               type="dashed"
             />
 
             <UPageLinks
-              :title="toc.bottom.title"
+              title="Resources"
               :links="links"
-            /> -->
+            />
           </div>
         </template>
       </UContentToc>
