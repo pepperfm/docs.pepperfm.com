@@ -11,7 +11,7 @@ orientation: horizontal
 ---
   :::prose-pre{filename="Terminal"}
   ```bash
-  composer require pepperfm/api-responder-for-laravel
+  composer r pepperfm/api-responder-for-laravel spatie/laravel-data
   ```
   :::
 
@@ -86,27 +86,29 @@ Packages that will make your :br Laravel application better
 ::
 
 ::u-page-section
-  :::u-page-grid{class="lg:grid-cols-2"}
-    ::::u-page-card
-    ---
-    description: Admin panel for your Laravel projects
-    icon: i-heroicons:moon-16-solid
-    target: _blank
-    title: Moonshine
-    to: https://moonshine-laravel.com/
-    variant: subtle
-    ---
-    ::::
-  
-    ::::u-page-card
-    ---
-    description: A collection of beautiful full-stack components
-    icon: Filament
-    target: _blank
-    title: Filament
-    to: https://filamentphp.com/
-    variant: subtle
-    ---
+  :::u-page-c-t-a
+    ::::u-page-grid{class="lg:grid-cols-2"}
+      :::::u-page-card
+      ---
+      description: Admin panel for your Laravel projects
+      icon: i-heroicons:moon-16-solid
+      target: _blank
+      title: Moonshine
+      to: https://moonshine-laravel.com/
+      variant: subtle
+      ---
+      :::::
+
+      :::::u-page-card
+      ---
+      description: A collection of beautiful full-stack components
+      icon: Filament
+      target: _blank
+      title: Filament
+      to: https://filamentphp.com/
+      variant: subtle
+      ---
+      :::::
     ::::
   :::
 ::
