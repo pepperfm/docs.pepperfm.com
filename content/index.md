@@ -28,7 +28,7 @@ Documentation for my packages, as well as for other libraries that contain my co
   to: /api-responder-for-laravel
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Explore the Docs
   :::
 ::
 
@@ -86,7 +86,7 @@ Packages that will make your :br Laravel application better
 ::
 
 ::u-page-section
-  :::u-page-c-t-a
+  :::u-page-c-t-a{title="Feature-Rich Admin Panels"}
     ::::u-page-grid{.lg:grid-cols-2}
       :::::u-page-card
       ---
