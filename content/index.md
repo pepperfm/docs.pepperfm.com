@@ -81,13 +81,13 @@ Packages that will make your :br Laravel application better
   Laravel Data
   
   #description
-    Creation of rich data objects which can be used in various ways
+  Creation of rich data objects which can be used in various ways
   :::
 ::
 
 ::u-page-section
   :::u-page-c-t-a
-    ::::u-page-grid{class="lg:grid-cols-2"}
+    ::::u-page-grid{.lg:grid-cols-2}
       :::::u-page-card
       ---
       description: Admin panel for your Laravel projects
@@ -98,7 +98,7 @@ Packages that will make your :br Laravel application better
       variant: subtle
       ---
       :::::
-
+    
       :::::u-page-card
       ---
       description: A collection of beautiful full-stack components
