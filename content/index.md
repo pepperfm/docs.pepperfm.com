@@ -103,5 +103,16 @@ Packages that will make your :br Laravel application better
     to: https://tailwindcss.com/docs/v4-beta
     ---
     ::::
+  
+    ::::u-page-card
+    ---
+    description: Nuxt UI v3 integrates with latest Tailwind CSS v4 beta, bringing
+      significant improvements.
+    icon: i-simple-icons-tailwindcss
+    target: _blank
+    title: "123123"
+    to: https://tailwindcss.com/docs/v4-beta
+    ---
+    ::::
   :::
 ::
