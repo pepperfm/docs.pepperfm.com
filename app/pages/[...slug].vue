@@ -79,6 +79,21 @@ const links = computed(() => {
     ]
   }
 
+  if (path === '/filament-json') {
+    return [
+      {
+        label: 'Core Concepts - Blade Components',
+        to: 'https://filamentphp.com/docs/3.x/support/blade-components/overview',
+        target: '_blank',
+      },
+      {
+        label: 'Filament Plugins Page',
+        to: 'https://filamentphp.com/plugins/pepperfm-json',
+        target: '_blank',
+      },
+    ]
+  }
+
   return []
 })
 </script>
