@@ -9,6 +9,24 @@ export default defineNuxtConfig({
     '@nuxthub/core',
   ],
 
+  content: {
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light-high-contrast',
+            dark: 'material-theme-palenight',
+          },
+          langs: [
+            'php',
+            'json',
+            'dotenv',
+          ],
+        },
+      },
+    },
+  },
+
   uiPro: {
     content: true,
     mdc: true,
