@@ -58,6 +58,7 @@ const { header } = useAppConfig()
           Dmitry Gaponenko
         </span>
       </NuxtLink>
+      <TemplateMenu />
     </template>
 
     <template #right>
@@ -68,13 +69,13 @@ const { header } = useAppConfig()
 
       <UColorModeButton v-if="header?.colorMode" />
 
-      <!--      <template v-if="header?.links">
+      <template v-if="header?.links">
         <UButton
           v-for="(link, index) of header.links"
           :key="index"
           v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
         />
-      </template> -->
+      </template>
     </template>
 
     <template #body>

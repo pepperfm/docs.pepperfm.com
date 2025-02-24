@@ -47,7 +47,7 @@ Packages that will make your :br Laravel application better
   ---
   #title
   API responder
-  
+
   #description
   Api responder for Laravel
   :::
@@ -63,7 +63,7 @@ Packages that will make your :br Laravel application better
   ---
   #title
   Socialment
-  
+
   #description
   Socialite OAuth Support for Filament
   :::
@@ -79,7 +79,7 @@ Packages that will make your :br Laravel application better
   ---
   #title
   Laravel Data
-  
+
   #description
   Creation of rich data objects which can be used in various ways
   :::
@@ -98,7 +98,7 @@ Packages that will make your :br Laravel application better
       variant: subtle
       ---
       :::::
-    
+
       :::::u-page-card
       ---
       description: A collection of beautiful full-stack components

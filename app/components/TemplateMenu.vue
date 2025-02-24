@@ -3,23 +3,16 @@
     v-slot="{ open }"
     :modal="false"
     :items="[{
-      label: `Starter`,
-      to: 'https://ui-pro-starter.nuxt.dev/',
-    }, {
       label: `Landing`,
-      to: 'https://landing-template.nuxt.dev/',
+      to: 'https://pepperfm.com/',
+      external: true,
+      target: '_blank',
     }, {
       label: `Docs`,
-      to: 'https://docs-template.nuxt.dev/',
+      to: 'https://docs.pepperfm.com',
       color: 'primary',
       checked: true,
       type: 'checkbox',
-    }, {
-      label: `SaaS`,
-      to: 'https://saas-template.nuxt.dev/',
-    }, {
-      label: `Dashboard`,
-      to: 'https://dashboard-template.nuxt.dev/',
     }]"
     :ui="{ content: 'w-(--reka-dropdown-menu-trigger-width) min-w-0' }"
     size="xs"
@@ -33,6 +26,7 @@
       :class="[open && 'bg-(--ui-primary)/15']"
       :ui="{
         trailingIcon: ['transition-transform duration-200', open ? 'rotate-180' : undefined].filter(Boolean).join(' '),
+        base: 'w-20 flex justify-around',
       }"
     />
   </UDropdownMenu>
