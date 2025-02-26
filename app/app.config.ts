@@ -14,7 +14,7 @@ export default defineAppConfig({
     },
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template',
+    siteName: 'PepperFM - Packages Documentation',
   },
   header: {
     title: '',

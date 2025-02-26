@@ -21,8 +21,10 @@ useHead({
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
-  ogImage: 'https://docs-template.nuxt.dev/social-card.png',
-  twitterImage: 'https://docs-template.nuxt.dev/social-card.png',
+  description: 'Creating efficient, scalable web solutions that prioritize user experience',
+  ogDescription: 'Creating efficient, scalable web solutions that prioritize user experience',
+  ogImage: 'android-chrome-192x192.png',
+  twitterImage: 'android-chrome-192x192.png',
   twitterCard: 'summary_large_image',
 })
 

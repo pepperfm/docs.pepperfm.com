@@ -11,7 +11,7 @@ orientation: horizontal
 ---
   :::prose-pre{filename="Terminal"}
   ```bash
-  composer r pepperfm/api-responder-for-laravel spatie/laravel-data
+  composer r pepperfm/api-responder-for-laravel pepperfm/ssd-for-laravel
   ```
   :::
 
