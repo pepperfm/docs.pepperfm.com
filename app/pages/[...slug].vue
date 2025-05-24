@@ -39,6 +39,29 @@ const headline = computed(() => findPageHeadline(navigation.value, page.value))
 const links = computed(() => {
   const path = route.path
 
+  if (path === '/api-responder-for-laravel') {
+    return [
+      {
+        label: 'Github',
+        to: 'https://github.com/pepperfm/api-responder-for-laravel',
+        target: '_blank',
+      },
+    ]
+  }
+  if (path === '/simple-slim-dto') {
+    return [
+      {
+        label: 'Github',
+        to: 'https://github.com/pepperfm/ssd-for-laravel',
+        target: '_blank',
+      },
+      {
+        label: 'Spatie Laravel Data',
+        to: 'https://spatie.be/docs/laravel-data',
+        target: '_blank',
+      },
+    ]
+  }
   if (path === '/socialment') {
     return [
       {
@@ -78,9 +101,13 @@ const links = computed(() => {
       },
     ]
   }
-
   if (path === '/filament-json') {
     return [
+      {
+        label: 'Github',
+        to: 'https://github.com/pepperfm/filament-json',
+        target: '_blank',
+      },
       {
         label: 'Core Concepts - Blade Components',
         to: 'https://filamentphp.com/docs/3.x/support/blade-components/overview',
@@ -89,6 +116,35 @@ const links = computed(() => {
       {
         label: 'Filament Plugins Page',
         to: 'https://filamentphp.com/plugins/pepperfm-json',
+        target: '_blank',
+      },
+    ]
+  }
+  if (path === '/laravel-filament-starter-kit') {
+    return [
+      {
+        label: 'Github',
+        to: 'https://github.com/pepperfm/laravel-filament-starter-kit',
+        target: '_blank',
+      },
+      {
+        label: 'Spatie Laravel Data',
+        to: 'https://spatie.be/docs/laravel-data',
+        target: '_blank',
+      },
+      {
+        label: 'Filament',
+        to: 'https://filamentphp.com',
+        target: '_blank',
+      },
+      {
+        label: 'L5 Swagger',
+        to: 'https://github.com/DarkaOnLine/L5-Swagger',
+        target: '_blank',
+      },
+      {
+        label: 'Defstudio Telegraph',
+        to: 'https://github.com/defstudio/telegraph',
         target: '_blank',
       },
     ]
