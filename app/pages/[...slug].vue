@@ -120,7 +120,7 @@ const links = computed(() => {
       },
     ]
   }
-  if (path === '/laravel-filament-starter-kit') {
+  if (path === '/laravel-starter-kit') {
     return [
       {
         label: 'Github',
@@ -130,6 +130,11 @@ const links = computed(() => {
       {
         label: 'Spatie Laravel Data',
         to: 'https://spatie.be/docs/laravel-data',
+        target: '_blank',
+      },
+      {
+        label: 'Moonshine',
+        to: 'https://moonshine-laravel.com/',
         target: '_blank',
       },
       {
