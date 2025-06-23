@@ -124,7 +124,7 @@ const links = computed(() => {
     return [
       {
         label: 'Github',
-        to: 'https://github.com/pepperfm/laravel-filament-starter-kit',
+        to: 'https://github.com/pepperfm/laravel-starter-kit',
         target: '_blank',
       },
       {
