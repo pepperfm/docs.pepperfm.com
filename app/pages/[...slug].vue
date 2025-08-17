@@ -101,7 +101,7 @@ const links = computed(() => {
       },
     ]
   }
-  if (path === '/filament-json') {
+  if (path === '/filament-json' || path === '/filament-json/v3') {
     return [
       {
         label: 'Github',
@@ -110,7 +110,7 @@ const links = computed(() => {
       },
       {
         label: 'Core Concepts - Blade Components',
-        to: 'https://filamentphp.com/docs/3.x/support/blade-components/overview',
+        to: 'https://filamentphp.com/docs/4.x/components/overview',
         target: '_blank',
       },
       {

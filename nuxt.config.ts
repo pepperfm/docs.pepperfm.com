@@ -9,9 +9,14 @@ export default defineNuxtConfig({
     '@nuxthub/core',
   ],
 
+  components: true,
+
   content: {
     build: {
       markdown: {
+        toc: {
+          searchDepth: 1,
+        },
         highlight: {
           theme: {
             default: 'github-light-high-contrast',
