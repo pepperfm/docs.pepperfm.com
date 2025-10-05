@@ -21,10 +21,10 @@ useHead({
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
-  description: 'Creating efficient, scalable web solutions that prioritize user experience',
-  ogDescription: 'Creating efficient, scalable web solutions that prioritize user experience',
-  ogImage: 'android-chrome-192x192.png',
-  twitterImage: 'android-chrome-192x192.png',
+  description: 'Documentation for packages',
+  ogDescription: 'Documentation for packages',
+  ogImage: 'og-default.png',
+  twitterImage: 'og-default.png',
   twitterCard: 'summary_large_image',
 })
 
