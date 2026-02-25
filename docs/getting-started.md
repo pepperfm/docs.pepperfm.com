@@ -43,6 +43,12 @@ Open [http://localhost:3000](http://localhost:3000). Changes to content files an
 content/7.new-package.md
 ```
 
+Example from this repository:
+
+```
+content/7.swagger-nuxt-ui-for-laravel.md
+```
+
 2. Add frontmatter with title, description, and optional links:
 
 ```markdown
@@ -54,6 +60,10 @@ links:
     icon: i-simple-icons-github
     to: https://github.com/pepperfm/new-package
     target: _blank
+  - label: Packagist
+    icon: i-lucide-package
+    to: https://packagist.org/packages/pepperfm/new-package
+    target: _blank
 ---
 
 ## Installation
@@ -62,6 +72,12 @@ Your content here...
 ```
 
 3. The page is automatically available at `/new-package` after the dev server picks it up.
+
+### Route-specific Resources (right sidebar)
+
+If a package page needs custom `Resources` links in the right TOC area, add route mapping in:
+
+`app/pages/[...slug].vue`
 
 ## Versioned Documentation
 

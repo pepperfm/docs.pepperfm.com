@@ -10,7 +10,7 @@ Documentation website for PepperFM's open-source Laravel/PHP packages, built wit
 - **Framework:** Nuxt 4.3.1 (Vue.js)
 - **UI Library:** Nuxt UI 4.5.0 (Nuxt UI Pro)
 - **Content:** Nuxt Content 3.11.2 (Markdown/MDC)
-- **Deployment:** NuxtHub + Cloudflare Workers
+- **Deployment:** Cloudflare Workers (Nitro preset)
 
 ## Project Structure
 ```

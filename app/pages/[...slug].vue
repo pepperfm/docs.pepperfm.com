@@ -154,6 +154,30 @@ const links = computed(() => {
       },
     ]
   }
+  if (path === '/swagger-nuxt-ui-for-laravel') {
+    return [
+      {
+        label: 'Github',
+        to: 'https://github.com/pepperfm/swagger-nuxt-ui-for-laravel',
+        target: '_blank',
+      },
+      {
+        label: 'Packagist',
+        to: 'https://packagist.org/packages/pepperfm/swagger-nuxt-ui-for-laravel',
+        target: '_blank',
+      },
+      {
+        label: 'L5 Swagger',
+        to: 'https://github.com/DarkaOnLine/L5-Swagger',
+        target: '_blank',
+      },
+      {
+        label: 'Swagger UI',
+        to: 'https://swagger.io/tools/swagger-ui/',
+        target: '_blank',
+      },
+    ]
+  }
 
   return []
 })

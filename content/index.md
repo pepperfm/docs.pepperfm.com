@@ -54,6 +54,20 @@ Packages that will make your :br Laravel application better
 
   :::u-page-card
   ---
+  spotlight: true
+  icon: i-lucide-file-code-2
+  to: /swagger-nuxt-ui-for-laravel
+  variant: subtle
+  ---
+  #title
+  Swagger Nuxt UI
+
+  #description
+  Offline Swagger UI bridge for Laravel
+  :::
+
+  :::u-page-card
+  ---
   external: true
   spotlight: true
   icon: i-heroicons:shield-check-16-solid

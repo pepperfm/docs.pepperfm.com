@@ -8,7 +8,7 @@ Core Nuxt configuration including modules, content settings, and build options.
 
 | Setting | Purpose |
 |---------|---------|
-| `modules` | Enabled Nuxt modules (UI, Content, ESLint, OG Image, NuxtHub) |
+| `modules` | Enabled Nuxt modules (UI, Content, ESLint, OG Image) |
 | `content.build.markdown` | Syntax highlighting theme and supported languages |
 | `ui.content` / `ui.mdc` | Enables Nuxt UI content components and MDC support |
 | `nitro.prerender` | Static prerendering with link crawling |

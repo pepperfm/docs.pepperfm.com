@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Documentation website for PepperFM's open-source Laravel/PHP packages, built with Nuxt 4 + Nuxt UI Pro + Nuxt Content. Deployed as a static site to Cloudflare via NuxtHub.
+Documentation website for PepperFM's open-source Laravel/PHP packages, built with Nuxt 4 + Nuxt UI Pro + Nuxt Content. Deployed as a static site to Cloudflare Workers.
 
 Live: https://docs.pepperfm.com
 
