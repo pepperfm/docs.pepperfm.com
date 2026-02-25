@@ -28,3 +28,10 @@ logs
 .history
 
 .wrangler
+
+.codex
+.claude
+.junie
+.agents
+.ai-factory*
+.mcp.json

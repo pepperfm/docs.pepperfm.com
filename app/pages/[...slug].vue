@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
-import { findPageHeadline } from '#ui-pro/utils/content'
+import { findPageHeadline } from '@nuxt/content/utils'
 
 definePageMeta({
   layout: 'docs',
@@ -8,7 +8,7 @@ definePageMeta({
 
 const route = useRoute()
 const { toc, seo } = useAppConfig()
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
 
 const { data } = await useAsyncData(route.path, () => Promise.all([
   queryCollection('docs').path(route.path).first(),
@@ -22,8 +22,8 @@ if (!data.value || !data.value.page) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-const page = computed(() => data.value?.page)
-const surround = computed(() => data.value?.surround)
+const page = computed(() => data.value!.page!)
+const surround = computed(() => data.value!.surround)
 
 useSeoMeta({
   title: page.value.seo.title,
@@ -34,7 +34,7 @@ useSeoMeta({
 
 defineOgImageComponent('Docs')
 
-const headline = computed(() => findPageHeadline(navigation.value, page.value))
+const headline = computed(() => findPageHeadline(navigation.value, page.value?.path || route.path))
 
 const links = computed(() => {
   const path = route.path

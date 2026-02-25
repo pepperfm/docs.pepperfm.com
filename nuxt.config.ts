@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui-pro',
+    '@nuxt/ui',
     '@nuxt/content',
     'nuxt-og-image',
     '@nuxthub/core',
@@ -33,9 +32,10 @@ export default defineNuxtConfig({
     },
   },
 
-  uiPro: {
+  ui: {
     content: true,
     mdc: true,
+    fonts: false,
   },
 
   devtools: {
@@ -43,10 +43,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  future: {
-    compatibilityVersion: 4,
-  },
 
   compatibilityDate: '2025-07-11',
 

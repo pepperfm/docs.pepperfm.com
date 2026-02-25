@@ -1,116 +1,69 @@
-![nuxt-ui-docs-social-card](https://github.com/nuxt-ui-pro/docs/assets/739984/f64e13d9-9ae0-4e03-bf7f-6be4c36cd9ba)
+# PepperFM Docs
 
-# Nuxt UI Pro - Docs template
+> Documentation website for PepperFM open-source Laravel/PHP packages.
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
-[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/themes/docs)
+[![Nuxt](https://img.shields.io/badge/Nuxt-4.x-00DC82?logo=nuxt.js&labelColor=0b1020)](https://nuxt.com/)
+[![Nuxt UI](https://img.shields.io/badge/Nuxt%20UI-4.x-00DC82?logo=nuxt.js&labelColor=0b1020)](https://ui.nuxt.com/)
+[![Nuxt Content](https://img.shields.io/badge/Nuxt%20Content-3.x-00DC82?logo=nuxt.js&labelColor=0b1020)](https://content.nuxt.com/)
 
-- [Live demo](https://docs-template.nuxt.dev)
-- [Documentation](https://ui3.nuxt.dev/getting-started/installation/pro/nuxt)
-- [Clone on Nuxt Studio](https://content.nuxt.com/templates/docs)
-
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/docs)
+This repository hosts the source code for `docs.pepperfm.com`.
+It is a Nuxt 4 application that renders package documentation from Markdown files in `content/`.
 
 ## Quick Start
 
-```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-pro/docs#v3
-```
-
-## Setup
-
-Make sure to install the dependencies:
-
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
 bun run dev
 ```
 
-## Production
+Open `http://localhost:3000`.
 
-Build the application for production:
+## Key Features
 
-```bash
-# npm
-npm run build
+- **Content-first docs** via Nuxt Content collections and schema validation.
+- **Reusable UI components** for docs pages and embedded MDC blocks.
+- **Typed Nuxt app** with linting and type checks in CI.
+- **SEO-ready pages** with OG image support and prerendering.
 
-# pnpm
-pnpm run build
+## Example
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+Create a new documentation page:
 
 ```bash
-# npm
-npm run preview
+cat > content/7.new-package.md <<'MD'
+---
+title: New Package
+description: Package overview
+---
 
-# pnpm
-pnpm run preview
+## Installation
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
+Install with Composer: `composer require pepperfm/new-package`
+MD
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Then run `bun run dev` and open `/new-package`.
 
-## Nuxt Studio integration
+## Scripts
 
-Studio is an intuitive CMS interface to edit your Nuxt Content websites.
-
-It take advantage of the Preview API included in Nuxt Content to propose the best editing experience for your content files. Editors can benefit from a user-friendly interface to edit their Markdown, YAML or JSON files.
-
-You can import your project on the platform without any extra setup.
-
-However to enable the live preview on the platform, you just need to activate studio in the content configuration of your `nuxt.config.ts` file.
-
-```ts [nuxt.config.ts]
-export default defineNuxtConfig({
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio'
-    }
-  }
-})
+```bash
+bun run dev         # Run development server
+bun run build       # Build for production
+bun run generate    # Generate static site
+bun run preview     # Preview production build
+bun run lint        # Run ESLint
+bun run typecheck   # Run Nuxt type checks
 ```
 
-Read more on [Nuxt Studio docs](https://content.nuxt.com/studio/setup).
+## Documentation
 
-## Renovate integration
+| Guide | Description |
+|-------|-------------|
+| [Getting Started](docs/getting-started.md) | Installation, setup, first steps |
+| [Architecture](docs/architecture.md) | Layers, data flow, boundaries |
+| [Configuration](docs/configuration.md) | Nuxt, content, environment settings |
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+## License
+
+This repository contains documentation infrastructure for PepperFM packages.
+License terms are defined per package repository.
