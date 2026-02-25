@@ -3,13 +3,13 @@
 > Project map for AI agents. Keep this file up-to-date as the project evolves.
 
 ## Project Overview
-Documentation website for PepperFM's open-source Laravel/PHP packages, built with Nuxt 4 and Nuxt UI Pro.
+Documentation website for PepperFM's open-source Laravel/PHP packages, built with Nuxt 4 and Nuxt UI.
 
 ## Tech Stack
 - **Language:** TypeScript
 - **Framework:** Nuxt 4.3.1 (Vue.js)
-- **UI Library:** Nuxt UI 4.4.0 (Nuxt UI Pro)
-- **Content:** Nuxt Content 3.1.1 (Markdown/MDC)
+- **UI Library:** Nuxt UI 4.5.0 (Nuxt UI Pro)
+- **Content:** Nuxt Content 3.11.2 (Markdown/MDC)
 - **Deployment:** NuxtHub + Cloudflare Workers
 
 ## Project Structure
@@ -76,6 +76,7 @@ docs.pepperfm.com/
 |----------|------|-------------|
 | README | README.md | Project landing page |
 | Getting Started | docs/getting-started.md | Setup, development, adding content |
+| Architecture | docs/architecture.md | Layers, data flow, and module boundaries |
 | Configuration | docs/configuration.md | Nuxt config, app config, content schema |
 
 ## AI Context Files

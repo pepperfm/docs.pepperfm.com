@@ -1,19 +1,17 @@
-[Back to README](../README.md) · [Configuration →](configuration.md)
+[Back to README](../README.md) · [Architecture →](architecture.md)
 
 # Getting Started
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) 18+
-- [pnpm](https://pnpm.io/) 10+
+- [Bun](https://bun.sh/) 1.1+
 - [Nuxt UI Pro license](https://ui.nuxt.com/pro) (set `NUXT_UI_PRO_LICENSE` env var)
 
 ## Setup
 
 ```bash
-git clone <repo-url>
-cd docs.pepperfm.com
-pnpm install
+# Run from the repository root
+bun install
 ```
 
 Copy the environment file:
@@ -32,7 +30,7 @@ NUXT_PUBLIC_SITE_URL=https://docs.pepperfm.com
 ## Development
 
 ```bash
-pnpm dev
+bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000). Changes to content files and Vue components hot-reload automatically.
@@ -96,11 +94,13 @@ These live in `app/components/global/` and are auto-imported.
 ## Building for Production
 
 ```bash
-pnpm build       # Build for server deployment
-pnpm generate    # Generate static site
-pnpm preview     # Preview the production build locally
+bun run build       # Build for server deployment
+bun run generate    # Generate static site
+bun run preview     # Preview the production build locally
 ```
 
 ## See Also
 
+- [Architecture](architecture.md) — Project structure and data flow
 - [Configuration](configuration.md) — Nuxt config, app config, content schema
+- [Back to README](../README.md) — Project overview

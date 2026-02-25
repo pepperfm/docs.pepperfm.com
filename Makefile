@@ -3,49 +3,49 @@ SHELL := /bin/bash
 
 # Project
 APP_NAME := docs.pepperfm.com
-PM := pnpm
+BUN := bun
 
 ##@ Development
 
 .PHONY: dev
 dev: ## Start development server
-	$(PM) dev
+	$(BUN) run dev
 
 .PHONY: install
 install: ## Install dependencies
-	$(PM) install
+	$(BUN) install
 
 .PHONY: prepare
 prepare: ## Prepare Nuxt (generate types)
-	$(PM) run postinstall
+	$(BUN) run postinstall
 
 ##@ Quality
 
 .PHONY: lint
 lint: ## Run ESLint
-	$(PM) lint
+	$(BUN) run lint
 
 .PHONY: lint-fix
 lint-fix: ## Run ESLint with auto-fix
-	$(PM) lint:fix
+	$(BUN) run lint:fix
 
 .PHONY: typecheck
 typecheck: ## Run TypeScript type checking
-	$(PM) typecheck
+	$(BUN) run typecheck
 
 ##@ Build
 
 .PHONY: build
 build: ## Build for production (server)
-	$(PM) build
+	$(BUN) run build
 
 .PHONY: generate
 generate: ## Generate static site
-	$(PM) generate
+	$(BUN) run generate
 
 .PHONY: preview
 preview: ## Preview production build locally
-	$(PM) preview
+	$(BUN) run preview
 
 ##@ CI
 

@@ -1,4 +1,4 @@
-[← Getting Started](getting-started.md) · [Back to README](../README.md)
+[← Architecture](architecture.md) · [Back to README](../README.md)
 
 # Configuration
 
@@ -76,7 +76,7 @@ schema: z.object({
     to: z.string(),
     target: z.string().optional()
   })).optional(),
-  version: z.string().optional()  // new field
+  version: z.string().optional() // new field
 })
 ```
 
@@ -90,3 +90,5 @@ schema: z.object({
 ## See Also
 
 - [Getting Started](getting-started.md) — Setup, development, adding content
+- [Architecture](architecture.md) — Layers and boundaries
+- [Back to README](../README.md) — Project overview
