@@ -50,11 +50,15 @@ docs.pepperfm.com/
 ├── package.json                  # Dependencies and scripts
 ├── docs/                         # Developer documentation
 │   ├── getting-started.md        # Setup and development guide
-│   └── configuration.md          # Configuration reference
+│   ├── configuration.md          # Configuration reference
+│   ├── security.md               # Security workflow and risk register
+│   └── security/                 # Security deep-dive docs
+│       └── vulnerability-triage.md # Audit baseline and remediation matrix
 ├── Makefile                      # Build automation
 ├── .github/workflows/            # CI/CD pipelines
 │   ├── lint.yml                  # ESLint + TypeScript checks
-│   └── build.yml                 # Production build verification
+│   ├── build.yml                 # Production build verification
+│   └── security-audit.yml        # Scheduled and PR dependency audit
 ├── .mcp.json                     # MCP server configuration
 └── .ai-factory/                  # AI agent context
     ├── DESCRIPTION.md            # Project specification
@@ -78,6 +82,8 @@ docs.pepperfm.com/
 | Getting Started | docs/getting-started.md | Setup, development, adding content |
 | Architecture | docs/architecture.md | Layers, data flow, and module boundaries |
 | Configuration | docs/configuration.md | Nuxt config, app config, content schema |
+| Security | docs/security.md | Audit workflow and residual risks |
+| Vulnerability Triage | docs/security/vulnerability-triage.md | Baseline and remediation matrix |
 
 ## AI Context Files
 | File | Purpose |

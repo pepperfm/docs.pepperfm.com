@@ -33,6 +33,10 @@ lint-fix: ## Run ESLint with auto-fix
 typecheck: ## Run TypeScript type checking
 	$(BUN) run typecheck
 
+.PHONY: audit
+audit: ## Run dependency vulnerability audit
+	$(BUN) audit
+
 ##@ Build
 
 .PHONY: build
