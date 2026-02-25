@@ -11,7 +11,7 @@ orientation: horizontal
 ---
   :::prose-pre{filename="Terminal"}
   ```bash
-  composer r pepperfm/api-responder-for-laravel pepperfm/ssd-for-laravel
+  composer r pepperfm/api-responder-for-laravel
   ```
   :::
 
@@ -54,9 +54,11 @@ Packages that will make your :br Laravel application better
 
   :::u-page-card
   ---
+  external: true
   spotlight: true
   icon: i-lucide-file-code-2
-  to: /swagger-nuxt-ui-for-laravel
+  target: _blank
+  to: https://github.com/pepperfm/swagger-nuxt-ui-for-laravel
   variant: subtle
   ---
   #title

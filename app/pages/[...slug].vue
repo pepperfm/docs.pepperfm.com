@@ -19,7 +19,7 @@ const { data } = await useAsyncData(route.path, () => Promise.all([
   transform: ([page, surround]) => ({ page, surround }),
 })
 if (!data.value || !data.value.page) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+  throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 
 const page = computed(() => data.value!.page!)
