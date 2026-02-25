@@ -53,6 +53,7 @@ bun run generate    # Generate static site
 bun run preview     # Preview production build
 bun run lint        # Run ESLint
 bun run typecheck   # Run Nuxt type checks
+bun audit           # Run dependency vulnerability audit
 ```
 
 ## Documentation
@@ -62,6 +63,7 @@ bun run typecheck   # Run Nuxt type checks
 | [Getting Started](docs/getting-started.md) | Installation, setup, first steps |
 | [Architecture](docs/architecture.md) | Layers, data flow, boundaries |
 | [Configuration](docs/configuration.md) | Nuxt, content, environment settings |
+| [Security](docs/security.md) | Vulnerability workflow and risk register |
 
 ## License
 

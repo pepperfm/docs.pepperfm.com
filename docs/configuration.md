@@ -1,4 +1,4 @@
-[← Architecture](architecture.md) · [Back to README](../README.md)
+[← Architecture](architecture.md) · [Back to README](../README.md) · [Security →](security.md)
 
 # Configuration
 
@@ -91,4 +91,5 @@ schema: z.object({
 
 - [Getting Started](getting-started.md) — Setup, development, adding content
 - [Architecture](architecture.md) — Layers and boundaries
+- [Security](security.md) — Audit workflow and residual risk tracking
 - [Back to README](../README.md) — Project overview
