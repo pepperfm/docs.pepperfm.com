@@ -46,6 +46,23 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-11',
 
   nitro: {
+    routeRules: {
+      '/_nuxt/**': {
+        headers: {
+          'cache-control': 'public, max-age=31536000, immutable',
+        },
+      },
+      '/_payload.json': {
+        headers: {
+          'cache-control': 'public, max-age=3600, stale-while-revalidate=86400',
+        },
+      },
+      '/**/_payload.json': {
+        headers: {
+          'cache-control': 'public, max-age=3600, stale-while-revalidate=86400',
+        },
+      },
+    },
     prerender: {
       routes: [
         '/',
