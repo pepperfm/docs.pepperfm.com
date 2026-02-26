@@ -41,6 +41,19 @@ export default defineNuxtConfig({
     enabled: false,
   },
 
+  experimental: {
+    payloadExtraction: false,
+    defaults: {
+      nuxtLink: {
+        prefetch: false,
+        prefetchOn: {
+          visibility: false,
+          interaction: false,
+        },
+      },
+    },
+  },
+
   css: ['~/assets/css/main.css'],
 
   compatibilityDate: '2025-07-11',
