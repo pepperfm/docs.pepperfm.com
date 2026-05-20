@@ -60,6 +60,12 @@ export default defineNuxtConfig({
 
   nitro: {
     routeRules: {
+      '/__og-image__/**': {
+        prerender: false,
+      },
+      '/__nuxt_island/**': {
+        prerender: false,
+      },
       '/_nuxt/**': {
         headers: {
           'cache-control': 'public, max-age=31536000, immutable',
@@ -81,6 +87,10 @@ export default defineNuxtConfig({
         '/',
       ],
       crawlLinks: true,
+      ignore: [
+        '/__og-image__',
+        '/__nuxt_island',
+      ],
     },
     experimental: {
       openAPI: false,
