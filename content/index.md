@@ -11,7 +11,7 @@ orientation: horizontal
 ---
   :::prose-pre{filename="Terminal"}
   ```bash
-  composer r pepperfm/api-responder-for-laravel
+  composer r swagger-nuxt-ui-for-laravel
   ```
   :::
 
