@@ -99,6 +99,22 @@ Packages that will make your :br Laravel application better
   #description
   Creation of rich data objects which can be used in various ways
   :::
+
+  :::u-page-card
+  ---
+  external: true
+  spotlight: true
+  icon: i-simple-icons:telegram
+  target: _blank
+  to: https://github.com/defstudio/telegraph
+  variant: subtle
+  ---
+  #title
+  Telegraph
+
+  #description
+  Fluent interaction with Telegram Bots
+  :::
 ::
 
 ::u-page-section
