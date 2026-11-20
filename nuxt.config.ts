@@ -65,6 +65,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-11',
 
   nitro: {
+    preset: 'bun',
     routeRules: {
       '/__og-image__/**': {
         prerender: false,
