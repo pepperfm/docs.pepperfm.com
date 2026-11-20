@@ -26,10 +26,10 @@ const page = computed(() => data.value!.page!)
 const surround = computed(() => data.value!.surround)
 
 useSeoMeta({
-  title: page.value.seo.title,
-  ogTitle: `${page.value.seo.title} - ${seo?.siteName}`,
-  description: page.value.seo.description,
-  ogDescription: page.value.seo.description,
+  title: () => page.value.seo?.title || page.value.title,
+  ogTitle: () => `${page.value.seo?.title || page.value.title} | ${seo?.siteName}`,
+  description: () => page.value.seo?.description || page.value.description,
+  ogDescription: () => page.value.seo?.description || page.value.description,
 })
 
 // defineOgImageComponent('Docs')

@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://docs.pepperfm.com',
+    },
+  },
+
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
@@ -85,6 +91,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/',
+        '/sitemap.xml',
       ],
       crawlLinks: true,
       ignore: [

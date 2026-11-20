@@ -1,8 +1,7 @@
 ---
 seo:
-  title: Packages documentation
-  description: Documentation for my packages, as well as for other libraries that
-    contain my code
+  title: Laravel & PHP Package Documentation
+  description: Laravel package guides for API responses, typed DTOs, Filament JSON fields, OAuth login, and OpenAPI documentation. Installation steps and practical examples.
 ---
 
 ::u-page-hero
@@ -16,10 +15,10 @@ orientation: horizontal
   :::
 
 #title
-Packages documentation
+Laravel packages, documented.
 
 #description
-Documentation for my packages, as well as for other libraries that contain my code and those that I simply like
+Install, configure, and use PepperFM packages for Laravel and PHP. Find practical examples for consistent API responses, typed DTOs, JSON fields, social login, and OpenAPI documentation.
 
 #links
   :::u-button
@@ -34,7 +33,7 @@ Documentation for my packages, as well as for other libraries that contain my co
 
 ::u-page-section
 #title
-Packages that will make your :br Laravel application better
+Tools for everyday :br Laravel development
 
 #features
   :::u-page-card
@@ -49,7 +48,7 @@ Packages that will make your :br Laravel application better
   API responder
 
   #description
-  Api responder for Laravel
+  Return consistent JSON API responses with a reusable Laravel response builder.
   :::
 
   :::u-page-card
@@ -65,7 +64,7 @@ Packages that will make your :br Laravel application better
   Swagger Nuxt UI
 
   #description
-  Offline Swagger UI bridge for Laravel
+  Serve OpenAPI documentation in a Nuxt UI viewer with bundled offline assets.
   :::
 
   :::u-page-card
@@ -81,7 +80,7 @@ Packages that will make your :br Laravel application better
   Socialment
 
   #description
-  Socialite OAuth Support for Filament
+  Add social login to Filament panels with Laravel Socialite.
   :::
 
   :::u-page-card

@@ -12,7 +12,7 @@ export default defineAppConfig({
     },
   },
   seo: {
-    siteName: 'PepperFM - Packages Documentation',
+    siteName: 'PepperFM Docs',
   },
   header: {
     title: '',
