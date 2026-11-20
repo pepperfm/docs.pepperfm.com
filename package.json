@@ -2,9 +2,9 @@
   "name": "docs.pepperfm.com",
   "type": "module",
   "private": true,
-  "packageManager": "bun@1.3.9",
+  "packageManager": "bun@1.4.4",
   "scripts": {
-    "build": "bunx --bun nuxt build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
